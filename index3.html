@@ -24,8 +24,39 @@
         #list3{
           border-bottom: 4px solid green ;
         }
+        
+        
+      
+        ::-webkit-scrollbar {
+          width: 8px;
+      
+        }
+        
+        /* Track */
+        ::-webkit-scrollbar-track {
+          background: #f1f1f1; 
+          width:2px;
+        }
+        
+        ::-webkit-scrollbar-button{
+          width: 1px;
+          color: #000;
+         
+        }
   
-
+  
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+          background:#0a5d36; 
+          border:1px solid white ;
+          border-radius:6px  ;
+        }
+        
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+          background:#0a5d36; 
+          border-radius:6px  ;
+        }
       
       @media(max-width:767px){
         #text1{
@@ -37,7 +68,6 @@
           line-height:100px;
           font-size:8px;
         }
-
       }
     </style>
  
